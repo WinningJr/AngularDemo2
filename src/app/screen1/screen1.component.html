@@ -1,0 +1,10 @@
+<div>
+    <input 
+    id="inputQuestion"
+    type="text"
+    [value]="myInputValue"
+    [style.width]="'850px'"
+    (input)="updateValue($event)" >
+  
+  <button id="buttonAsk" (click)="btnAsk()">Ask</button>
+</div>
